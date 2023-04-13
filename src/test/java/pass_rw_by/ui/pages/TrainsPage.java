@@ -1,8 +1,8 @@
-package PassRwBy.tests.ui.pages;
+package pass_rw_by.ui.pages;
 
 import org.openqa.selenium.By;
 
-import static PassRwBy.tests.ui.set.DriverSet.driver;
+import static pass_rw_by.ui.set.DriverSet.driver;
 
 public class TrainsPage {
     public static final String BUTTON_CHOOSE_THE_TRAIN = "//a[@class='btn btn-index']";

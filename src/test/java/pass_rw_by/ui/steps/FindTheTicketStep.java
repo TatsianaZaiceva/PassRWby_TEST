@@ -1,6 +1,8 @@
-package PassRwBy.tests.ui.steps;
+package pass_rw_by.ui.steps;
 
-import PassRwBy.tests.ui.pages.*;
+import pass_rw_by.ui.pages.CarriagePage;
+import pass_rw_by.ui.pages.TrainsPage;
+import pass_rw_by.ui.pages.WayPage;
 
 public class FindTheTicketStep {
     public static void findOneWayTicket(String From, String To, int date) {
@@ -8,17 +10,11 @@ public class FindTheTicketStep {
                 .wayFrom(From)
                 .wayTo(To)
                 .chooseTheDate(date)
-                //забрать данные для проверки в корзине
                 .btnFindTheTrain();
         new TrainsPage()
                 .chooseTheFirstTrain();
         new CarriagePage()
                 .chooseTheFirstFreeCarriage()
-                .chooseTheFirstFreeSeat();
-    }
-    public static void backToCarriage() {
-        new CarriagePage()
-                .chooseTheFirstFreeCarriage()
-                .chooseTheFirstFreeSeat();
+                .chooseTheSeatBySystem();
     }
 }

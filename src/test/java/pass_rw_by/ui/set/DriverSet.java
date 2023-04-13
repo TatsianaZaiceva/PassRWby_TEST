@@ -1,4 +1,4 @@
-package PassRwBy.tests.ui.set;
+package pass_rw_by.ui.set;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +10,7 @@ public class DriverSet {
     public static WebDriver driver;
     public static WebDriver createDriver() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless", "--remote-allow-origins=*", "--incognito");
+        options.addArguments("--remote-allow-origins=*", "--incognito");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();

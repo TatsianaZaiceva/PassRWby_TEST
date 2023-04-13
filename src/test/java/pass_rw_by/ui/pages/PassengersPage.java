@@ -1,8 +1,8 @@
-package PassRwBy.tests.ui.pages;
+package pass_rw_by.ui.pages;
 
 import org.openqa.selenium.By;
 
-import static PassRwBy.tests.ui.set.DriverSet.driver;
+import static pass_rw_by.ui.set.DriverSet.driver;
 
 public class PassengersPage {
     public static final By FIRST_NAME_FORM = By.xpath("//input[@name='first_name_1']");
@@ -10,8 +10,7 @@ public class PassengersPage {
     public static final By LAST_NAME_FORM = By.xpath("//input[@name='last_name_1']");
     public static final By DOCUMENT_FORM = By.xpath("//input[@name='document_number_1']");
     public static final By ACCEPT_THE_RULES = By.xpath("//div[@class='jq-checkbox__div']");
-    public static final By BUTTON_CHECKOUT = By.xpath("//button[@class='btn btn-default info-form__submit']");
-
+    public final By BUTTON_CHECKOUT = By.xpath("//button[@class='btn btn-default info-form__submit']");
 
     public PassengersPage inputLastName(String LastName) {
         driver.findElement(LAST_NAME_FORM).sendKeys(LastName);
@@ -34,5 +33,4 @@ public class PassengersPage {
         driver.findElement(BUTTON_CHECKOUT).click();
         return this;
     }
-
 }

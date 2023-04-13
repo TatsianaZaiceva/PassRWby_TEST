@@ -1,4 +1,4 @@
-package PassRwBy.tests.api;
+package pass_rw_by.api;
 
 import com.github.javafaker.Faker;
 

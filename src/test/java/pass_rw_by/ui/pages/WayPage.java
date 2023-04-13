@@ -1,8 +1,8 @@
-package PassRwBy.tests.ui.pages;
+package pass_rw_by.ui.pages;
 
 import org.openqa.selenium.By;
 
-import static PassRwBy.tests.ui.set.DriverSet.driver;
+import static pass_rw_by.ui.set.DriverSet.driver;
 
 public class WayPage {
     public static final String FROM = "Гомель";

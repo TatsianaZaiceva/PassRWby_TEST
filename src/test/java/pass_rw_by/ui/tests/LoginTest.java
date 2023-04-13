@@ -1,9 +1,9 @@
-package PassRwBy.tests.ui.tests;
+package pass_rw_by.ui.tests;
 
-import PassRwBy.tests.ui.data.UserData;
-import PassRwBy.tests.ui.pages.AuthorPage;
-import PassRwBy.tests.ui.set.Util;
-import PassRwBy.tests.ui.steps.AuthorizationStep;
+import pass_rw_by.ui.data.UserData;
+import pass_rw_by.ui.pages.AuthorPage;
+import pass_rw_by.ui.set.Util;
+import pass_rw_by.ui.steps.AuthorizationStep;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

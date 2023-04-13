@@ -3,8 +3,8 @@
 <suite name="Test Suite UI">
     <test name="UI Spotify Test">
         <classes>
-            <class name="PassRwBy.tests.ui.tests.LoginTest"/>
-            <class name="PassRwBy.tests.ui.tests.OneWayTicketTest"/>
+            <class name="tests.ui.taf_by.rw.pass.LoginTest"/>
+            <class name="tests.ui.taf_by.rw.pass.OneWayTicketTest"/>
         </classes>
     </test>
 </suite>

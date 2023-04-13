@@ -1,8 +1,8 @@
-package PassRwBy.tests.ui.tests;
+package pass_rw_by.ui.tests;
 
-import PassRwBy.tests.ui.set.DriverSet;
-import PassRwBy.tests.ui.pages.AuthorPage;
-import PassRwBy.tests.ui.pages.MainPage;
+import pass_rw_by.ui.set.DriverSet;
+import pass_rw_by.ui.pages.AuthorPage;
+import pass_rw_by.ui.pages.MainPage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 

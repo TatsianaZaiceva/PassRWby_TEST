@@ -1,7 +1,7 @@
-package PassRwBy.tests.ui.steps;
+package pass_rw_by.ui.steps;
 
-import PassRwBy.tests.ui.pages.AuthorPage;
-import PassRwBy.tests.ui.pages.MainPage;
+import pass_rw_by.ui.pages.AuthorPage;
+import pass_rw_by.ui.pages.MainPage;
 
 public class AuthorizationStep {
     public static void openLoginForm() {

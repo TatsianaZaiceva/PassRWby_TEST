@@ -1,9 +1,6 @@
-package PassRwBy.tests.ui.steps;
+package pass_rw_by.ui.steps;
 
-import PassRwBy.tests.ui.pages.PassengersPage;
-import PassRwBy.tests.ui.set.Util;
-
-import static PassRwBy.tests.ui.set.DriverSet.driver;
+import pass_rw_by.ui.pages.PassengersPage;
 
 public class PassengerDataStep {
     public static void fillThePassengerForm(String LastName, String FirstName, String MiddleName, String Passport) {

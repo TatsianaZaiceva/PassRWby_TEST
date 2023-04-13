@@ -3,7 +3,7 @@
 <suite name="Test Suite API">
     <test name="API Spotify Test">
         <classes>
-            <class name="PassRwBy.tests.api.ApiTest"/>
+            <class name="api.taf_by.rw.pass.ApiTest"/>
         </classes>
     </test>
 </suite>

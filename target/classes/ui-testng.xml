@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite UI">
+    <test name="UI Spotify Test">
+        <classes>
+            <class name="tests.ui.taf_by.rw.pass.LoginTest"/>
+            <class name="tests.ui.taf_by.rw.pass.OneWayTicketTest"/>
+        </classes>
+    </test>
+</suite>
